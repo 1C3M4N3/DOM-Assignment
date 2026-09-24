@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Basics Assignment</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h2>1. Click Counter</h2>
+        <button id="counter-btn">Click me!</button>
+        <p>Clicks: <span id="counter-display">0</span></p>
+    </section>
+
+    <section>
+        <h2>2. Text Toggler</h2>
+        <button id="toggle-btn">Toggle Text</button>
+        <p id="toggle-text">This is the text that can be hidden or shown.</p>
+    </section>
+
+    <section>
+        <h2>3. Live Input Echo</h2>
+        <input type="text" id="echo-input" placeholder="Type something here...">
+        <p>Echo: <span id="echo-display"></span></p>
+    </section>
+
+    <section>
+        <h2>4. Dynamic List</h2>
+        <input type="text" id="list-input" placeholder="Enter list item...">
+        <button id="add-btn">Add to List</button>
+        <ul id="dynamic-list">
+        </ul>
+    </section>
+
+    <!-- Script included at the end -->
+    <script src="script.js"></script>
+</body>
+</html>
